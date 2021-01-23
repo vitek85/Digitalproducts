@@ -1,0 +1,567 @@
+
+body, html {
+    background-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+    padding: 10px;
+}
+
+.header {
+    font-family: ProximaNova;
+    background-image: url(../img/header/DeathtoStock_Wired7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: #ffffff;
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+        
+    }
+
+    &__list {
+        
+        display: flex;
+        justify-content: space-between;
+        width: 570px;
+        
+    }
+
+    ul li {
+        display: inline-block;
+        list-style-type: none;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        transition: 0.5s ease;
+        padding-bottom: 5px;
+
+    }
+
+    ul li:hover{
+        color: #778899;
+        transition: 0.5s ease;
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+
+    &__content {
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 70px;
+        text-align: center;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 330px;
+    }
+
+    &__subtitle {
+        
+        text-align: center;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 400;
+        padding: 45px 0 500px;
+        
+    }
+
+
+
+
+}
+
+.about {
+    padding: 125px 0 120px;
+    background-color: #ebebeb;
+    font-family: 'PT Sans', sans-serif;
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__img {
+        position: relative;
+    }
+
+    &__icon {
+        position: absolute;
+        top: 13%;
+        right: 42%;
+    }
+
+    &__us {
+        font-family: ProximaNova;
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 400;
+        text-transform: uppercase;
+        position: absolute;
+        top: 24%;
+        right: 27%;
+    }
+
+
+    &__aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 120px;
+    }
+
+    &__text {
+        padding-top: 75px;
+        font-family: ProximaNova;
+        color: #665f60;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    &__button {
+        padding-top: 120px;
+    }
+
+    &__butt {
+        background-color: #ebebeb;
+        width: 195px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+        text-align: center;
+        color: #7d7a7c;
+        cursor: pointer;
+        border: 1px solid #7d7a7c;
+        
+    }
+
+
+
+}
+
+.services {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #ebebeb;
+    
+
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    &__left {
+       display: flex; 
+       flex-wrap: wrap;
+       width: 760px;
+    }
+     
+
+    &__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #dbdbdb;
+        width: 380px;
+        height: 399px;
+
+    }
+
+    &__box2 {
+        background-color: #ebebeb;
+    }
+
+    &__img {
+        padding-top: 97px;
+    }
+
+    &__subtitle {
+        padding-top: 30px;
+        color: #665f60;
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    &__text {
+        text-align: center;
+        padding-top: 24px;
+        color: #665f60;
+        font-size: 18px;
+        font-weight: italic 300;
+    }
+
+    &__fox {
+        background-image: url(../img/services/unsplash_523ae1f5502d6_1.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 363px;
+        height: 798px;
+    }
+
+    &__pic {
+        padding-top: 115px;
+        color: #665f60;
+    }
+
+    &__title {
+        font-family: ProximaNova;
+        padding-top: 36px;
+        color: #665f60;
+        text-transform: uppercase;
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+    &__text2 {
+        text-align: center;
+        padding-top: 124px;
+        color: #665f60;
+        font-size: 18px;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    &__foot {
+        text-align: center;
+        padding-top: 10px;
+        color: #665f60;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+
+
+
+
+}
+
+
+.works {
+    background-image: url(../img/work/DeathtoStock_Wired3.png);
+
+    &__body {
+        text-align: center;
+    }
+
+    &__img {
+        padding-top: 50px;
+    }
+
+    &__title {
+        font-family: ProximaNova;
+        padding: 36px 0 40px;
+        color: #fefcfd;
+        text-transform: uppercase;
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+
+    &__button {
+        padding: 50px 0 60px;
+        font-family: 'PT Sans', sans-serif;
+        
+    }
+
+    &__butt {
+        background-color: #b6b4d7;
+        width: 195px;
+        height: 50px;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+        cursor: pointer;
+        outline: none;
+        border: 1px solid #ffffff;
+
+        
+        
+    }
+
+
+
+
+    .swiper-container {
+        padding-bottom: 50px;
+        
+    }
+
+}
+
+
+.team {
+    background-color: #ebebeb;
+    text-align: center;
+
+    &__img {
+        padding-top: 55px;
+    }
+
+    &__title {
+        font-family: ProximaNova;
+        padding: 35px 0 65px;
+        color: #665f60;
+        text-transform: uppercase;
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+    &__block {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        padding: 12em 0 4em;
+        width: 70em;
+      }
+    
+      &__item {
+        background-color: white;
+        width: 20em;
+        position: relative;
+    
+        margin: 0 1em;
+      }
+    
+      &__name {
+        font-family: proximaBold, sans-serif;
+        font-weight: 700;
+        font-size: 1.5em;
+        color: #9f9acf;
+        text-transform: uppercase;
+        padding-top: 6.5em;
+      }
+    
+      &__discription {
+        @extend %ptSansItalic;
+        color: #665f60;
+        padding-top: 1em;
+      }
+    
+      &__photo {
+        position: absolute;
+        left: 10%;
+        top: -40%;
+      }
+    
+      &__footer {
+        background-color: #9f9acf;
+        padding: 1em 2em;
+        margin-top: 2em;
+      }
+    
+      &__icon {
+        border-radius: 50%;
+        padding: 0.2em;
+      }
+
+
+
+
+
+
+
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+    
+    &__content {
+      position: absolute;
+      text-align: center;
+      padding: 2em 0;
+      right: 18%;
+      top: -2%;
+    }
+
+
+    &__img {
+        margin-top: 30px;
+        color: #ffffff;
+        position: relative;
+        right: 7%;
+    }
+
+    &__title {
+        font-family: ProximaNova;
+        position: relative;
+        right: 7%;
+        padding: 24px 0 40px;
+        color: #fefcfd;
+        text-transform: uppercase;
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+
+  
+    
+  
+    &__adress {
+      background-color: rgba(218, 216, 227, 0.6);
+      font-family: "PT Sans", sans-serif;
+      font-weight: 400;
+      font-size: 1em;
+      color: #665f60;
+      padding: 0.5em 1em;
+    }
+  
+    &__form {
+      padding-top: 5em;
+      width: 50em;
+      margin: 0 auto;
+        display: flex;
+      flex-wrap: wrap;
+      position: relative;
+    }
+  
+    &__input {
+      background-color: rgba(218, 216, 227, 0.6);
+      outline: none;
+      border: none;
+      width: 24.5em;
+      padding: 1em;
+      border-radius: 5px;
+  
+      font-family: "PT Sans", sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      color: #fff;
+  
+      &:first-child {
+        margin-right: 1em;
+      }
+    }
+  
+    &__textarea {
+      background-color: rgba(218, 216, 227, 0.6);
+      margin-top: 1em;
+      width: 50em;
+      border: none;
+      padding: 1em 1em 15em 1em;
+      border-radius: 5px;
+  
+      font-family: "PT Sans", sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      color: #fff;
+    }
+  
+    &__btn {
+        position:absolute;
+        top: 105%;
+        right: 48%;      
+        margin: 2em auto;
+      padding: 1em 2em;
+      outline: none;
+      border: none;
+      background-color: #9f9acf;
+  
+      font-family: proximaBold, sans-serif;
+      font-weight: 700;
+      font-size: 1em;
+      color: #fff;
+      text-transform: uppercase;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  
+    &__bottom {
+      display: flex;
+    }
+  
+   &__foot {
+      background-color: #9f9acf;
+      padding: 2em;
+    }
+  
+    &__copy {
+      font-family: "PT Sans", sans-serif;
+      font-weight: 400;
+      color: #fff;
+    }
+  
+    &__flex {
+     
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      img {
+        padding: 0.5em;
+      }
+    }
+
+    &__body {
+        padding: 0;
+    }
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#map {
+    height: 800px;
+    width: 100%;
+}
+
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot);
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.svg#wf) format("svg");
+    font-weight: 300;
+    font-style: normal
+  }
+  
+  @font-face {
+    font-family: ProximaNova;
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot);
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.svg#wf) format("svg");
+    font-weight: 400;
+    font-style: normal
+  }
+  
+  @font-face {
+    font-family: ProximaNova;
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot);
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.svg#wf) format("svg");
+    font-weight: 700;
+    font-style: normal
+  }
+
